@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="logo.avif">
+    <link rel="stylesheet" href="concha.css">
+    </head>
+    <body>
+        <header class="header">
+            <a href="#hero" class="logo">Danny
+            <span>Gurl</span></a>
+
+            <i  class="bx bx-menu" id="menu-icon"></i>
+
+            <nav class="navbar">
+                <a href="#hero">Home</a>
+                <a href="#about">About</a>
+                <a href="#portfolios">Portfolio</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </header>
+        <!--Section Hero-->
+        <section class="hero" id="hero">
+            <div class="hero-content">
+                <h1>Hi, I'm <span>Alanis Danica Concha</span></h1>
+                <p>
+                    At your service, I'm currently studying in Dalubhasaan ng Lungsod ng Lucena in the course of Bachelor of Science in Information Technology. And i'm willing to be your Ui and Ux Designer.
+                </p>
+                <!--SOCIAL-MEDIA-->
+                <div class="social-icons">
+                    <a target="blank" href="https://github.com/concha09">
+                        <i class="bx bxl-github"></i>
+                    
+                    <a  target="blank" href="https://www.instagram.com/idc_mahbruh/profilecard/?igsh=MXI3bXQzdGZraWJzNQ==">
+                        <i class="bx bxl-instagram-alt"></i>
+                    </a>
+                    <a target="blank" href="https://www.facebook.com/danica.hyungconcha">
+                        <i class='bx bxl-facebook-circle'></i>
+                    </a>
+                </div>
+
+                <div class="btn-group">
+                    <a target="blank" href="index.html" class="btn">Download VC</a>
+                </div>
+            </div>
+            <!--hero IMAGE MY PROFILE-->
+            <div class="hero-img">
+                <img src="images/bg1.jpg" alt="">
+            </div>
+        </section>
+        <!--Section About-->
+        <section class="about" id="about">
+            
+            <div class="about-content">
+                <div>
+                    <h2>About <span>ME</span></h2>
+                    <p>IT Student
+                        at your service, I'm currently studying in Dalubhasaan ng Lungsod ng Lucena in the course of Bachelor of Science in Information Technology. And i'm willing to be your Ui and Ux Designer. </p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+            </div>
+        </section>
+        <!--Section portfolios-->
+        <section class="portfolios" id="portfolios">
+            <h2 class="heading">Portfolio</h2>
+        
+            <div class="servivces-container">
+                <div class="portfolio-box">
+                    <a href="index.html">
+                        <img style="height: 580px;" src="images/Resume.png" alt="Portfolio Image">
+                    </a>
+                </div>
+            </div>
+        </section>
+        
+
+        <section class="contact" id="contact">
+            <h2 class="heading">Contact <span>Me</span></h2>
+            <form action="">
+                <div class="input-group">
+                    <div class="input-box">
+                        <input type="text" placeholder="FullName">
+                        <input type="email" placeholder="Email">
+                    </div>
+                    <div class="input-box">
+                        <input type="number" placeholder="Phone Number">
+                        <input type="text" placeholder="Subject">
+                    </div>
+                </div>
+
+                <div class="input-group-2">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+                    <input type="submit" value="Send Message" class="btn">
+                </div>
+                
+            </form>
+
+        </section>
+
+        <footer class="footer">
+            <div class="social-icons">
+                <a target="blank" href="https://github.com/concha09">
+                    <i class="bx bxl-github"></i>
+                </a>
+                <a  target="blank" href="https://www.instagram.com/idc_mahbruh/profilecard/?igsh=MXI3bXQzdGZraWJzNQ==">
+                    <i class="bx bxl-instagram-alt"></i>
+                </a>
+                <a target="blank" href="https://www.facebook.com/danica.hyungconcha">
+                    <i class='bx bxl-facebook-circle'></i>
+                </a>
+            </div>
+            
+            <ul class="list">
+                <li>
+                    <a href="#">FAQ</a>
+                </li>
+                <li>
+                    <a href="#portfolios">portfolio</a>
+                </li>
+                <li>
+                    <a href="#about">About Me</a>
+                </li>
+                <li>
+                    <a href="#contacts">Contact</a>
+                </li>
+            </ul>
+             <p class="copyright">
+                John Xyril Portfolio | ALL Right Reserved 2024
+                JULY
+             </p>
+        </footer>
+
+        <script>
+            const menuIcon = document.getElementById('menu-icon');
+            const navbar = document.querySelector('.navbar');
+            
+            menuIcon.addEventListener('click', () => {
+                navbar.classList.toggle('active');
+            });
+        </script>
+        
+    </body>
+</html>
