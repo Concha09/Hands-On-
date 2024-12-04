@@ -92,7 +92,7 @@ section {
     align-items: center;
     justify-content: center;
     gap: 10rem;
-    background: url(images/home.jpg);
+    background: url(home.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: -13px;
